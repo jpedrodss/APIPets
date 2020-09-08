@@ -12,7 +12,7 @@ namespace APIPets.Context
 
         public ClinicaContext()
         {
-            con.ConnectionString = @"Data Source=JoaoPedro\SQLEXPRESS;Initial Catalog=boletim;User ID=sa;Password=sa132;";
+            con.ConnectionString = @"Data Source=JoaoPedro\SQLEXPRESS;Initial Catalog=ClinicaVeterinaria;User ID=sa;Password=sa132;";
         }
 
         public SqlConnection Conectar()

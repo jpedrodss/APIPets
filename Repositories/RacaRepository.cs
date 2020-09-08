@@ -108,8 +108,7 @@ namespace APIPets.Repositories
                         IdRaca = Convert.ToInt32(dados.GetValue(0)),
                         Descricao = dados.GetValue(1).ToString(),
                         IdTipoPet = Convert.ToInt32(dados.GetValue(3))
-                    }
-                );
+                    });
             }
 
             conexao.Desconectar();
